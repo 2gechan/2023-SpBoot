@@ -1,0 +1,13 @@
+spring:
+  thymeleaf:
+    prefix: classpath:templates/
+    suffix: .html
+    mode: HTML5
+    cache: false
+    template-resolver-order: 0
+    check-template-location: true
+
+logging:
+   level:
+     com.gechan.hello: debug
+
